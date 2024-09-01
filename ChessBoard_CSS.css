@@ -1,0 +1,25 @@
+.container {
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+    .white {
+    height: 80px;
+    width: 80px;
+    background-color:rgb(234, 220, 202);
+    }
+
+    .black {
+        height: 80px;
+        width: 80px;
+        background-color:rgb(135, 110, 73);
+        }
+table{
+    border: 5px solid;
+}
+td{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 2px 2px darkgray;
+}
